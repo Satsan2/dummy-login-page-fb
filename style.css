@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background:  lavender;
+    padding: 20%;
+}
+.icon p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.icon{
+    padding-top: 20px;
+    font-size: 500%;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.detail input{
+    width: 40vw;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background: lavenderblush;
+}
+.detail button{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 40vw;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.footer button{
+    width: 40vw;
+    border-radius: 40px;
+    border: solid blue 1px;
+    background: lavenderblush;
+    padding: 10px;
+}
+.footer nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    gap: 5px;
+    font-size: 10px;
+}
+.footer nav a{
+    text-decoration: none;
+}
+.footer p{
+    margin: 10px;
+}
